@@ -1,0 +1,632 @@
+body {
+    margin: 0px;
+    /* overflow-x: hidden; */
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 0px 10%;
+    padding-top: 42px;
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hl {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#header-logo {
+    cursor: pointer;
+}
+
+#header-tabs-bar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    /* gap: 1.7vw; */
+    /* padding-left: 6.5vw; */
+    /* margin-right: 12.3vw; */
+}
+
+.current-tab-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: none;
+
+    color: #6c8693;
+}
+
+.other-tab-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: none;
+
+    color: #d9d9d9;
+}
+
+#header-btns-block {
+    display: flex;
+    gap: 18px;
+
+    /* padding-left: 19vw; */
+}
+
+#header-link-1 {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ececec;
+    background: transparent;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header-link-2 {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%),
+        #748e9c;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-top-block {
+    width: 100%;
+    margin-top: 104px;
+    margin-bottom: 75px;
+}
+
+.medium-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+#profile-top-title {
+    margin-bottom: 44px;
+}
+
+#profile-top-card {
+    width: 259px;
+}
+
+#profile-top-card-image {
+    width: 100%;
+}
+
+#profile-top-card-stats-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+.medium-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103.05%;
+    color: #979391;
+}
+
+.profile-top-card-stats-subrow {
+    width: 90px;
+}
+
+.profile-top-card-stat-subtext {
+    font-weight: 600;
+    margin-top: 7px;
+    color: #000000;
+}
+
+#profile-top-card-vl {
+    height: 48px;
+    border-right: 1px solid #d9d9d9;
+}
+
+#profile-top-btn {
+    width: 100%;
+    height: 74px;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%),
+        #748e9c;
+    color: #ffffff;
+}
+
+.big-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 103.05%;
+    color: #000000;
+}
+
+#profile-top-left-subblock {
+    display: flex;
+    gap: 57px;
+}
+
+#profile-top-nickname {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.profile-top-text-row-1 {
+    display: flex;
+    gap: 87px;
+    margin-top: 79px;
+}
+
+.big-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 103.05%;
+    color: #000000;
+}
+
+.profile-top-text {
+    font-weight: 400;
+}
+
+.profile-top-about-title {
+    font-weight: 500;
+}
+
+.profile-top-subtext {
+    margin-top: 7px;
+}
+
+.profile-top-text-row-2 {
+    margin-top: 48px;
+}
+
+.profile-top-about-text {
+    width: 769px;
+    color: #000000;
+    margin-top: 12px;
+}
+
+#profile-top-links-subblock {
+    display: flex;
+    gap: 52px;
+}
+
+#profile-tab-bar {
+    width: calc(100vw - 20px);
+    padding: 0px 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.profile-tabs-subblock {
+    display: flex;
+    gap: 35px;
+}
+
+.profile-tab {
+    padding: 28px;
+}
+
+.current-profile-tab {
+    border: 1px solid #d9d9d9;
+    border-bottom: 2px solid #ffffff;
+    transform: translateY(1px);
+}
+
+.current-profile-tab-text {
+    color: #000000;
+}
+
+#dreams-block {
+    width: 100%;
+    margin-top: 87px;
+}
+
+.small-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 103.05%;
+    color: #365262;
+}
+
+#dreams-title {
+    margin-bottom: 48px;
+}
+
+#dreams-cards-subblock {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.8%;
+}
+
+.dream-card {
+    width: 30%;
+}
+
+.dream-card-image {
+    width: 100%;
+}
+
+.dream-card-text-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.dream-card-text-row-1 {
+    margin-top: 20px;
+}
+
+.dream-card-text-subrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-price {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: right;
+    color: #000000;
+}
+
+.card-subtitle {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979391;
+}
+
+.dream-card-subtitle {
+    width: 69%;
+    margin-bottom: 21px;
+    margin-top: 12px;
+}
+
+.dream-card-btn {
+    width: 100%;
+    height: 74px;
+
+    color: #ffffff;
+}
+
+.dream-card-btn-dark {
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%),
+        #748e9c;
+}
+
+.dream-card-btn-medium {
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%),
+        #9db1bc;
+}
+
+.dream-card-btn-light {
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(240, 249, 255, 0.5) 0%, rgba(241, 250, 255, 0) 100%),
+        #b8bec1;
+}
+
+#nfts-block {
+    width: 100%;
+    margin-top: 87px;
+    margin-bottom: 76px;
+}
+
+#nfts-cards-block {
+    margin-top: 59px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.nfts-cards-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.5%;
+}
+
+.nft-card {
+    width: 30.5%;
+}
+
+.nft-card-image-subblock {
+    /* width: 100%; */
+    background-image: url("./images/louvre-card-frame-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 6.5%;
+}
+
+.nft-card-image {
+    width: 100%;
+}
+
+.nft-card-text-subblock {
+    margin-top: 25px;
+}
+
+.nft-card-text-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-card-text-subrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-author {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #637883;
+}
+
+.card-last-price {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1c2529;
+}
+
+.card-author > span {
+    font-weight: 400;
+    color: #979391;
+}
+
+.nft-card-last-price {
+    color: #637883;
+}
+
+.nft-card-like-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 17px;
+}
+
+.nft-card-like-number {
+    color: #476676;
+}
+
+footer {
+    background: #394348;
+    padding: 0px 10%;
+    padding-bottom: 152px;
+    padding-top: 101px;
+}
+
+#footer-top-row-login-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 103.05%;
+    color: #ffffff;
+
+    margin-bottom: 17px;
+}
+
+#footer-top-row-login-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+
+    width: 508px;
+    margin-bottom: 33px;
+}
+
+#footer-top-row-login-input-subrow {
+    display: flex;
+    gap: 22px;
+}
+
+#footer-top-row-login-input {
+    width: 572px;
+    height: 63px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    outline: none;
+    padding-left: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+#footer-top-row-login-input::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer-top-row-login-btn {
+    width: 168px;
+    background: #ffffff;
+    height: 63px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #6a5843;
+}
+
+#footer-top-row-links-subblock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#footer-top-row-links-subrow-1 {
+    display: flex;
+    gap: 28px;
+}
+
+#footer-top-row-links-subrow-2 {
+    display: flex;
+    gap: 52px;
+}
+
+.footer-top-row-language-link {
+    width: 46px;
+    height: 46px;
+    border: 1px solid #748f9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ftrlb-active {
+    border: 2px solid #ffffff;
+}
+
+#footer-top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+}
+
+#footer-logo-subrow {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10%;
+}
+
+#footer-vl {
+    height: 55px;
+    border-left: 1px solid #748f9c;
+}
+
+#footer-logo-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #9ca1a3;
+}
+
+#footer-tabs-bar {
+    width: 68.8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 8%; */
+}
+
+.current-footer-tab-text {
+    color: #ffffff;
+}
+
+.other-footer-tab-text {
+    color: rgba(255, 255, 255, 0.5);
+}

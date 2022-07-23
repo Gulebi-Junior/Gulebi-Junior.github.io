@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Oregon LDO';
+	font-style: normal;
+    font-weight: 300;
+    src: url('Oregon LDO Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Oregon LDO';
+	font-style: normal;
+    font-weight: 400;
+    src: url('Oregon LDO.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Oregon LDO';
+	font-style: normal;
+    font-weight: 500;
+    src: url('Oregon LDO Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Oregon LDO';
+	font-style: normal;
+    font-weight: 600;
+    src: url('Oregon LDO DemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Oregon LDO';
+	font-style: normal;
+    font-weight: 700;
+    src: url('Oregon LDO Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Oregon LDO';
+	font-style: normal;
+    font-weight: 800;
+    src: url('Oregon LDO ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Oregon LDO';
+	font-style: normal;
+    font-weight: 900;
+    src: url('Oregon LDO Black.woff') format('woff');
+}
+    

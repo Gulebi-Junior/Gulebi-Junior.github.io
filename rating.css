@@ -1,0 +1,589 @@
+body {
+    margin: 0px;
+    /* overflow-x: hidden; */
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 0px 10%;
+    padding-top: 42px;
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hl {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#header-logo {
+    cursor: pointer;
+}
+
+#header-tabs-bar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    /* gap: 1.7vw; */
+    /* padding-left: 6.5vw; */
+    /* margin-right: 12.3vw; */
+}
+
+.current-tab-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: none;
+
+    color: #6c8693;
+}
+
+.other-tab-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: none;
+
+    color: #d9d9d9;
+}
+
+#header-btns-block {
+    display: flex;
+    gap: 18px;
+
+    /* padding-left: 19vw; */
+}
+
+#header-link-1 {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ececec;
+    background: transparent;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header-link-2 {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%),
+        #748e9c;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-rating-block {
+    width: calc(100vw - 20px);
+    background-image: url("./images/top-rating-bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 248px 12%;
+}
+
+#top-rating-title {
+    font-family: "Beauty Swing Personal Use";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 103.05%;
+    color: #4f6776;
+
+    width: 662px;
+}
+
+#top-rating-title > span {
+    font-family: "Oregon LDO";
+}
+
+#top-rating-btn {
+    width: 249px;
+    height: 80px;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%),
+        #748e9c;
+    margin-top: 39px;
+}
+
+.medium-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103.05%;
+    color: #ffffff;
+}
+
+#question-block {
+    width: 100%;
+    margin-top: 96px;
+}
+
+#question-top-row {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+    margin-bottom: 94px;
+}
+
+#question-mark-subblock {
+    width: 100px;
+    height: 102px;
+    border: 1px solid #476676;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#question-mark {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 87px;
+    color: #365262;
+}
+
+.small-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #365262;
+}
+
+#question-top-subtitle {
+    color: #476676;
+    margin-top: 19px;
+}
+
+#question-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.question-bottom-card {
+    width: 30%;
+    height: 282px;
+    border: 1px solid #b1d0d8;
+    padding-top: 33px;
+    padding-left: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.small-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #476676;
+}
+
+#question-bottom-card-subtitle {
+    width: 310px;
+    margin-top: 23px;
+}
+
+.question-bottom-card-icon {
+    height: 100%;
+}
+
+#rewards-block {
+    width: calc(100vw - 20px);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(203, 225, 239, 0.25) 0%, rgba(167, 194, 211, 0) 100%), #6c8693;
+    padding: 0px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 59px;
+    padding-bottom: 82px;
+    margin-top: 119px;
+}
+
+.big-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #ffffff;
+}
+
+#rewards-text-subblock {
+    width: 78.6%;
+}
+
+#rewards-subtitle {
+    width: 754px;
+    color: #e8f6fe;
+    margin-top: 23px;
+}
+
+#rewards-cards-subblock {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 55px;
+}
+
+.reward-card {
+    width: 49%;
+    border: 1px solid #e1f9ff;
+    padding: 33px 0px 53px 36px;
+}
+
+.reward-card-title {
+    color: #ffffff;
+}
+
+.reward-card-subtitle {
+    color: #ffffff;
+    margin-top: 23px;
+    width: 410px;
+}
+
+#rating-block {
+    width: calc(100vw - 20px);
+    margin-top: 123px;
+    margin-bottom: 151px;
+}
+
+#rating-top-row {
+    padding: 0px 10%;
+}
+
+#rating-title {
+    color: #365262;
+}
+
+#rating-tab-bar {
+    /* width: calc(100vw - 20px); */
+    width: 100%;
+    padding: 0px 10%;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.rating-tabs-subblock {
+    display: flex;
+    gap: 35px;
+}
+
+.rating-tab {
+    padding: 28px;
+}
+
+.current-rating-tab {
+    border: 1px solid #d9d9d9;
+    border-bottom: 2px solid #ffffff;
+    transform: translateY(1px);
+}
+
+.rating-profile-tab-text {
+    color: #000000;
+}
+
+.rating-tab-text {
+    color: #bac1cf;
+}
+
+.current-rating-tab-text {
+    color: #1e4257;
+}
+
+.rating-subrow {
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.3%;
+    padding-right: 5.3%;
+    border-bottom: 1px solid #c7dce9;
+}
+
+.rating-subrow-dark {
+    background: linear-gradient(90deg, #7495a6 -2.86%, #b9d6e8 101.36%);
+}
+
+.rating-subrow-medium {
+    background: linear-gradient(90deg, #83a8bb -2.86%, #cee6f4 101.36%);
+}
+
+.rating-subrow-light {
+    background: linear-gradient(90deg, #a7c2d3 -2.86%, #edf8ff 101.36%);
+}
+
+.rating-subrow-white {
+    border-bottom: 1px solid #c7dce9;
+}
+
+.rating-subrow-subblock {
+    display: flex;
+    align-items: center;
+}
+
+.rating-subrow-subblock-1 {
+    width: 8.5%;
+    display: flex;
+    align-items: center;
+    gap: 27%;
+}
+
+.rating-subrow-subblock-2 {
+    width: 6.3%;
+    display: flex;
+    align-items: center;
+    gap: 24%;
+}
+
+.rating-subrow-number {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 103.05%;
+    color: #1e4257;
+}
+
+.rating-subrow-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 103.05%;
+    color: #1e4257;
+}
+
+.rating-subrow-total-number {
+    color: #1e4257;
+    font-weight: 600;
+}
+
+#rating-subrows-block {
+    padding: 0px 12%;
+}
+
+#rating-btn-subblock {
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
+}
+
+#rating-btn {
+    width: 316px;
+    height: 80px;
+    border: 1px solid #dedede;
+    color: #365262;
+}
+
+footer {
+    background: #394348;
+    padding: 0px 10%;
+    padding-bottom: 152px;
+    padding-top: 101px;
+}
+
+#footer-top-row-login-title {
+    font-family: "Oregon LDO";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 103.05%;
+    color: #ffffff;
+
+    margin-bottom: 17px;
+}
+
+#footer-top-row-login-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+
+    width: 508px;
+    margin-bottom: 33px;
+}
+
+#footer-top-row-login-input-subrow {
+    display: flex;
+    gap: 22px;
+}
+
+#footer-top-row-login-input {
+    width: 572px;
+    height: 63px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    outline: none;
+    padding-left: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+#footer-top-row-login-input::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer-top-row-login-btn {
+    width: 168px;
+    background: #ffffff;
+    height: 63px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #6a5843;
+}
+
+#footer-top-row-links-subblock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#footer-top-row-links-subrow-1 {
+    display: flex;
+    gap: 28px;
+}
+
+#footer-top-row-links-subrow-2 {
+    display: flex;
+    gap: 52px;
+}
+
+.footer-top-row-language-link {
+    width: 46px;
+    height: 46px;
+    border: 1px solid #748f9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ftrlb-active {
+    border: 2px solid #ffffff;
+}
+
+#footer-top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+}
+
+#footer-logo-subrow {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10%;
+}
+
+#footer-vl {
+    height: 55px;
+    border-left: 1px solid #748f9c;
+}
+
+#footer-logo-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #9ca1a3;
+}
+
+#footer-tabs-bar {
+    width: 68.8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 8%; */
+}
+
+.current-footer-tab-text {
+    color: #ffffff;
+}
+
+.other-footer-tab-text {
+    color: rgba(255, 255, 255, 0.5);
+}
